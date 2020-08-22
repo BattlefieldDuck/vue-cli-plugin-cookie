@@ -1,6 +1,6 @@
 {
   "name": "vue-cli-plugin-cookie",
-  "version": "0.0.4",
+  "version": "0.1.0",
   "description": "🍪 Vue CLI 3/4 Plugin for handling browser cookies",
   "main": "index.js",
   "scripts": {
@@ -13,7 +13,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/BattlefieldDuck/vue-cli-plugin-cookie"
+    "url": "git+https://github.com/BattlefieldDuck/vue-cli-plugin-cookie.git"
   },
+  "keywords": [
+    "vue",
+    "vue3",
+    "cli",
+    "cookie",
+    "cookies",
+    "vue-cookie",
+    "vue-cookies",
+    "vue-cli-plugin",
+    "vue-cli-4",
+    "vue-cli4"
+  ],
   "homepage": "https://github.com/BattlefieldDuck/vue-cli-plugin-cookie#readme"
 }
