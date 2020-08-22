@@ -42,5 +42,5 @@ jobs:
       - run: echo registry=https://npm.pkg.github.com/BattlefieldDuck >> .npmrc
       - run: npm publish
         env:
-          NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
-          #NODE_AUTH_TOKEN: ${{secrets.PUBLISH_GITHUB_TOKEN}}
+          # NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
+          NODE_AUTH_TOKEN: ${{secrets.PUBLISH_GITHUB_TOKEN}}
