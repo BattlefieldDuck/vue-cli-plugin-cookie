@@ -39,7 +39,7 @@ jobs:
           node-version: 12
           registry-url: https://npm.pkg.github.com/
           scope: '@battlefieldduck'
-      - run: echo registry=https://npm.pkg.github.com/BattlefieldDuck >> .npmrc
+      - run: echo registry=https://npm.pkg.github.com/battlefieldduck >> .npmrc
       - run: npm publish
         env:
           # NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
